@@ -1,0 +1,20 @@
+<body>
+  <div id="root"></div>
+  <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+
+  <script type="text/babel">
+    // 🐨 Aşağıdakı kodu JSX ə cevirin
+    const element = React.createElement("div", {
+      className: "container",
+      children: "IT INNOVATIONS",
+    });
+
+    // 💰 HTML class-ı JSX-də className olaraq yazılır
+    // 📜 HTML ilə JSX sinkasis fərqini daha ətraflı öyrənmək
+    // üçün aşağıdakı linkə baxa bilərsiz:
+    // https://reactjs.org/docs/dom-elements.html#differences-in-attributes
+
+    ReactDOM.render(element, document.getElementById("root"));
+  </script>
+</body>
